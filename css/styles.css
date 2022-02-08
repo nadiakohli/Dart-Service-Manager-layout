@@ -23,7 +23,7 @@ html, body {
     background:#f6f8f9;
 }
 
-button {
+button, img {
     cursor: pointer;
 }
 
@@ -183,6 +183,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /* --------------header end----------- */
 /* --------easy-useful------- */
