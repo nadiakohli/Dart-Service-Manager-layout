@@ -80,7 +80,7 @@ footer {
 
 .main-nav li a{
     padding:  0 25px;
-    color: white;
+    color: #fff;
 }
 
 .main-nav a:hover{
@@ -89,7 +89,7 @@ footer {
 }
 
 .header-button button {
-    color: white;
+    color: #fff;
     background: transparent;
     border: 1px solid #fff;
     padding: 8px 19px;
@@ -129,7 +129,7 @@ footer {
 }
 
 .main-page-buttons button {
-    background-color: white; 
+    background-color: #fff; 
     border: none;
     border-radius: 5px;
     color: #061e37;
@@ -145,7 +145,7 @@ footer {
 }
 
 .main-page-buttons button:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #061e37;
     font-family: Roboto-Regular, sans-serif;
     font-weight: normal;
@@ -185,7 +185,7 @@ footer {
     align-items: center;
     cursor: pointer;
 }
-/* --------------header end----------- */
+
 /* --------easy-useful------- */
 .easy-useful {
     display: flex;
@@ -198,7 +198,6 @@ footer {
     width: 555px;
 }
 
-
 .easy-useful-main-text-header {
     font-size: 45px;
     text-align: center;
@@ -206,7 +205,6 @@ footer {
     font-family: Raleway-SemiBold, sans-serif;
     margin-top: 100px;
 }
-
 
 .easy-useful-main-text-header-paragraph {
     font-size: 25px;
@@ -261,7 +259,7 @@ footer {
 .easy-useful-button button {
     cursor: pointer;
     background-color: #1de9b6;
-    color: #ffffff;
+    color: #fff;
     border-radius: 5px;
     border: none;
     padding: 20px 40px;
@@ -275,13 +273,13 @@ footer {
     align-items: center;
     padding-top: 10px;
 } 
-/* -----------easy-useful end-------- */
+
 /* -----------color-block--------- */
 .color-blocks-with-statistics {
     display: flex;
     flex-direction:row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-top: 100px;
 }
 
@@ -315,21 +313,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 60px; 
     height: 60px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 50%;
 }
 
 .color-block-information p {
     font-size: 20px;
     font-family: Raleway-ExtraBold, sans-serif;
-    color: #ffffff;
+    color: #fff;
     font-weight: bold;
     padding-left: 23px;
 }
-/* --------color-block end--------- */
+
 /* -----------services--------- */
 .services {
     height: 870px;
@@ -365,7 +363,7 @@ footer {
     width: 750px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -410,7 +408,7 @@ footer {
     border: none;
     outline: none; 
 }
-/* --------services end---------- */
+
 /* ---------testimonials--------- */
 .testimonials {
     height: calc(100vh - 81px - 45px);
@@ -457,7 +455,7 @@ footer {
 }
 
 .testimonials-main-text-button button:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #061e37;
     font-family: Roboto-Regular, sans-serif;
     font-weight: normal;
@@ -474,8 +472,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align:center;
-
+    text-align: center;
+    margin: 10px 0;
 }
 
 .testimonials-customer-opinion {
@@ -515,13 +513,13 @@ footer {
 .testimonials-customer-opinion-rectangle {
     width: 650px;
     height: 160px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-/* -----------testimonials end------- */
+
 /* ------------our-team--------- */
 .our-team {
     display: flex;
@@ -535,7 +533,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 } 
 
 .our-team-main-text-header {
@@ -570,7 +568,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
 .our-team-another-text {
@@ -578,7 +576,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
 .our-team-ico {
@@ -587,9 +585,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
-/* -----------our-team end----- */
+
 /* --------contact-us----------- */
 .contact-us-main-text {
     display: flex;
@@ -638,7 +636,7 @@ footer {
     text-align: left;
 }
 
-.first-name,.last-name {
+.first-name, .last-name {
     width: 278px;
     font-size: 14px;
     color: #061e37;
@@ -648,7 +646,7 @@ footer {
     font-family: Raleway-Medium, sans-serif;
 }
 
-.email,.phone {
+.email, .phone {
     margin-top: 19px;
     width: 278px;
     font-size: 14px;
@@ -704,13 +702,13 @@ footer {
 .contact-us-block3 button {
     cursor: pointer;
     background-color: #1de9b6;
-    color: #ffffff;
+    color: #fff;
     border-radius: 5px;
     border: none;
     padding: 20px 40px;
 }
-/* ---------------contact-us end--------------- */
-/* ----footer------------ */
+
+/* ---footer--- */
 .container-footer-background {
     margin-top: 100px;
     padding: 0 76px;
@@ -738,9 +736,9 @@ footer {
     text-decoration: none;
 }
 
-.footer-main-nav li a{
+.footer-main-nav li a {
     padding:  0 25px;
-    color: white;
+    color: #fff;
 }
 
 .footer-links-social {
@@ -753,7 +751,7 @@ footer {
 
 .footer-other-links {
     font-size: 15px;
-    color: white;
+    color: #fff;
 }
 
 .footer-nav {
@@ -775,7 +773,7 @@ ul.footer-nav a {
 }
 
 ul.footer-nav a:hover {
-    color: white;
+    color: #fff;
 }
 
 ul.footer-nav li {
@@ -790,14 +788,3 @@ ul.footer-nav li {
     width: 170px;
     margin-right: 25px;
 }
-/* ------------footer end----------- */
-
-
-
-
-
-
-
-
-
-
