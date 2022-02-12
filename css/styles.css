@@ -833,9 +833,18 @@ ul.footer-nav li {
         border-radius: 2px;
         font-size: 14px;
     }
+
+    .main-page {
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     .main-page-text {
-        width: 50%;
+        width: 75%;
     }
     
     .main-page-header  {
@@ -855,35 +864,39 @@ ul.footer-nav li {
         margin-right: 10px;
         margin-top: 20px;
     }
+    
+    .video-text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
 
-    .main-page-video  {
-        display: none;
+    .main-page-video {
+        margin-top: 20px;
     }
     
-    /* .video-text {
-        font-size: 18px;
-        margin-top: 15px;
+    .main-page-video {
+        width: 75%;
     }
-    
+
     .main-page-video .video-bg {
-        width: 600px;
+        width: 100%;
     }
-    
+
     .video-play-arrow {
-        width: 15px;
+        width: 5px;
     }
     
     .square {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         background: #061e37;
-        border-radius: 10px;
+        border-radius: 5px;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
-    } */
+    } 
     
     /* --------easy-useful------- */
     .easy-useful-main-text {
@@ -1007,7 +1020,7 @@ ul.footer-nav li {
 
     /* ---------testimonials--------- */
     .testimonials {
-        width: 100vh;
+        height: 100vh;
     }
 
     .testimonials-main-text {
@@ -1031,11 +1044,7 @@ ul.footer-nav li {
         font-size: 14px;
     }
     
-    .testimonials-opinion {
-        display: none;
-    }
-
-    /* .testimonials-opinion-arrow {
+    .testimonials-opinion-arrow {
         margin: 20px 0;
     }
     
@@ -1058,10 +1067,10 @@ ul.footer-nav li {
     }
     
     .testimonials-customer-opinion-rectangle {
-        width: 680px;
+        width: 100%;
         height: 240px;
         border-radius: 7px;
-    } */
+    }
     
     /* ------------our-team--------- */
     .our-team {
