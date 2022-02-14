@@ -20,7 +20,7 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background:#f6f8f9;
+    background: #f6f8f9;
 }
 
 button, img {
@@ -78,7 +78,7 @@ footer {
     text-decoration: none;
 }
 
-.main-nav li a{
+.main-nav li a {
     padding:  0 25px;
     color: #fff;
 }
@@ -305,7 +305,6 @@ footer {
     background-color: #ea80fc;
 }
 
-
 .color-block-ico {
     display: flex;
     justify-content: center;
@@ -375,7 +374,7 @@ footer {
     width: 100%;
 }
 
-.services-item-list  {
+.services-item-list {
     font-size: 15px;
     color: #061e37;
     font-family: Raleway-Bold, sans-serif;
@@ -669,7 +668,7 @@ footer {
 .contact-us-block3 .ch1 {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: center;
     margin-top: 20px;
 }
@@ -752,7 +751,7 @@ footer {
 .footer-links-social {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding-top: 52px;
 }
@@ -765,7 +764,7 @@ footer {
 
 .footer-nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: center;
     width: 310px;
 }
@@ -1267,7 +1266,7 @@ ul.footer-nav li {
     }
     
     .main-nav li a {
-        padding:  0 10px;
+        padding: 0 10px;
     }
     
     .header-button button {
@@ -1694,7 +1693,7 @@ ul.footer-nav li {
     }
     
     .footer-main-nav li a {
-        padding:  0 5px;
+        padding: 0 5px;
     }
     
     .footer-other-links {
@@ -1747,7 +1746,7 @@ ul.footer-nav li {
     }
     
     .main-nav li a {
-        padding:  0 10px;
+        padding: 0 10px;
     } */
     
     .header-button button {
@@ -2191,7 +2190,7 @@ ul.footer-nav li {
     }
     
     .footer-main-nav li a {
-        padding:  0 5px;
+        padding: 0 5px;
     }
     
     .footer-other-links {
