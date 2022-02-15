@@ -614,7 +614,7 @@ footer {
     line-height: 1.7;
 }
 
-.contact-us-input-field {
+.contact-us-contacts-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -695,7 +695,7 @@ footer {
     align-items: center;
 }
 
-.contact-us-block3 button {
+.contact-us-checkbox-button button {
     width: 25%;
     cursor: pointer;
     background-color: #1de9b6;
@@ -1120,11 +1120,11 @@ ul.footer-nav li {
     }
     
     /* --------contact-us----------- */
-    .contact-us-block3 {
+    .contact-us-checkbox-button {
         margin-bottom: 20px;
     }
 
-    .contact-us-block1 {
+    .contact-us-header-paragraph {
         width: 70%;
     }
     
@@ -1139,12 +1139,12 @@ ul.footer-nav li {
         line-height: 1.5;
     }
     
-    .contact-us-block2 {
+    .contact-us-contact-form {
         width: 100%;
         margin-top: 30px;
     } 
     
-    .contact-us-input-field {
+    .contact-us-contacts-form {
         width: 70%;
         margin: 0 auto;
     }
@@ -1184,8 +1184,8 @@ ul.footer-nav li {
         border-radius: 3px;
         font-size: 16px;
     }
-    
-    .contact-us-block3 button {
+
+    .contact-us-checkbox-button button {
         border-radius: 5px;
         padding: 20px 30px;
         font-size: 14px;
@@ -1589,11 +1589,11 @@ ul.footer-nav li {
     }
     
     /* --------contact-us----------- */
-    .contact-us-block3 {
+    .contact-us-checkbox-button {
         margin-bottom: 20px;
     }
 
-    .contact-us-block1 {
+    .contact-us-header-paragraph {
         width: 70%;
     }
     
@@ -1608,12 +1608,12 @@ ul.footer-nav li {
         line-height: 1.5;
     }
     
-    .contact-us-block2 {
+    .contact-us-contact-form {
         width: 100%;
         margin-top: 15px;
     } 
     
-    .contact-us-input-field {
+    .contact-us-contacts-form {
         width: 70%;
         margin: 0 auto;
     }
@@ -1654,7 +1654,7 @@ ul.footer-nav li {
         font-size: 12px;
     }
     
-    .contact-us-block3 button {
+    .contact-us-checkbox-button button {
         border-radius: 2px;
         padding: 10px 15px;
         font-size: 9px;
@@ -2081,11 +2081,11 @@ ul.footer-nav li {
     }
 
     /* --------contact-us----------- */
-    .contact-us-block3 {
+    .contact-us-checkbox-button {
         margin-bottom: 10px;
     }
 
-    .contact-us-block1 {
+    .contact-us-header-paragraph {
         width: 70%;
     }
     
@@ -2100,7 +2100,7 @@ ul.footer-nav li {
         line-height: 1.2;
     }
     
-    .contact-us-block2 {
+    .contact-us-contact-form {
         width: 100%;
         margin-top: 10px;
     } 
@@ -2146,7 +2146,7 @@ ul.footer-nav li {
         font-size: 9px;
     }
     
-    .contact-us-block3 button {
+    .contact-us-checkbox-button button {
         border-radius: 2px;
         padding: 5px 7px;
         font-size: 6px;
