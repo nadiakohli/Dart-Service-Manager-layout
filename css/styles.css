@@ -593,7 +593,7 @@ footer {
     align-items: center;
 } 
 
-.contact-us-block1 {
+.contact-us-header-paragraph {
     width: 50%;
 }
 
@@ -620,12 +620,12 @@ footer {
     align-items: center;
 }
 
-.contact-us-block2 {
+.contact-us-contact-form {
     width: 50%;
     margin-top: 50px;
 } 
 
-.contact-us-block2-input-field {
+.contact-us-input-field {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -665,7 +665,7 @@ footer {
     font-family: Raleway-Medium, sans-serif;
 }
 
-.contact-us-block3 .ch1 {
+.contact-us-checkbox-button .ch1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
