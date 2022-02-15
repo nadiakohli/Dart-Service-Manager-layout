@@ -463,12 +463,12 @@ footer {
     text-align: center;
 }
 
-.testimonials-opinion-arrow-720 {
+/* .testimonials-opinion-arrow-720 {
     display: none;
-}
+} */
 
 .testimonials-opinion-arrow {
-    display: block;
+    /* display: block; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -1052,10 +1052,10 @@ ul.footer-nav li {
     .testimonials-opinion-arrow {
         margin: 10px 0;
     }
-
+/* 
     .testimonials-opinion-arrow-720 {
        display: none;
-    }
+    } */
     
     .testimonials-customer-opinion {
         margin: 15px 0;
@@ -1515,12 +1515,13 @@ ul.footer-nav li {
     }
 
     .testimonials-opinion-arrow {
-        display: none;
-    }
-
-    .testimonials-opinion-arrow-720 {
+        /* display: none; */
         margin: 10px 0;
     }
+
+    /* .testimonials-opinion-arrow-720 {
+        margin: 10px 0;
+    } */
 
     .testimonials-customer-opinion {
         margin: 10px;
@@ -1573,10 +1574,18 @@ ul.footer-nav li {
     .our-team-another-text-header {
         font-size: 12px;
     }
-    
+
     .our-team-images {
         width: 200px;
         margin-top: 20px;
+    }
+
+    .our-team-back-photo {
+        width: 30%;
+    }
+
+    .our-team-front-photo {
+        width: 50%;
     }
     
     .our-team-another-text {
@@ -2000,13 +2009,14 @@ ul.footer-nav li {
         height: 30px;
     }
     
-    .testimonials-opinion-arrow-720 {
+    /* .testimonials-opinion-arrow-720 {
         display: block;
         margin: 5px 0;
-    }
+    } */
 
     .testimonials-opinion-arrow {
-        display: none;
+        /* display: none; */
+        margin: 5px 0;
     }
 
     .testimonials-customer-opinion {
