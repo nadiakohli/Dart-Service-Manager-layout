@@ -156,6 +156,10 @@ footer {
     width: 50%;
 }
 
+.video-bg {
+    width: 100%;
+}
+
 .video-text {
     display: flex;
     font-size: 12px;
@@ -463,16 +467,20 @@ footer {
     text-align: center;
 }
 
-/* .testimonials-opinion-arrow-720 {
+.testimonials-opinion-arrow-720 {
     display: none;
-} */
+}
 
 .testimonials-opinion-arrow {
-    /* display: block; */
+    display: block;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 10px 0;
+}
+
+.testimonials-opinion-arrow img {
+    margin-left: 85px;
 }
 
 .testimonials-customer-opinion {
@@ -1052,10 +1060,6 @@ ul.footer-nav li {
     .testimonials-opinion-arrow {
         margin: 10px 0;
     }
-/* 
-    .testimonials-opinion-arrow-720 {
-       display: none;
-    } */
     
     .testimonials-customer-opinion {
         margin: 15px 0;
@@ -1508,20 +1512,19 @@ ul.footer-nav li {
         border-radius: 50%;
         height: 50px;
     }
-    
-    .testimonials-opinion-arrow-720 {
-        display: block;
-        margin: 10px 0;
-    }
 
     .testimonials-opinion-arrow {
-        /* display: none; */
-        margin: 10px 0;
+        display: flex;
+        align-items: center;
     }
 
-    /* .testimonials-opinion-arrow-720 {
-        margin: 10px 0;
-    } */
+    .testimonials-opinion-arrow img {
+        width: 30px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 0;
+        transform: rotate(-90deg);
+    }
 
     .testimonials-customer-opinion {
         margin: 10px;
@@ -2008,15 +2011,18 @@ ul.footer-nav li {
         border-radius: 50%;
         height: 30px;
     }
-    
-    /* .testimonials-opinion-arrow-720 {
-        display: block;
-        margin: 5px 0;
-    } */
 
     .testimonials-opinion-arrow {
-        /* display: none; */
-        margin: 5px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonials-opinion-arrow img {
+        width: 30px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 0;
+        transform: rotate(-90deg);
     }
 
     .testimonials-customer-opinion {
@@ -2026,7 +2032,7 @@ ul.footer-nav li {
     }
     
     .testimonials-customer-opinion-header {
-        font-size: 9px;
+        font-size: 7px;
         padding: 5px;
     }
     
