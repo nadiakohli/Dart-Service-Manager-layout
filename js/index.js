@@ -2,7 +2,7 @@ window.onload = () => {
   // Get burger button from DOM
   const burgerButton = document.querySelector('.burger-button');
   // Get menu from DOM
-  const menu = document.querySelector('.header-menu');
+  const menu = document.querySelector('.burger-menu');
   
   // Function which toogle state of menu
   const toggleMenu = (el) => {
