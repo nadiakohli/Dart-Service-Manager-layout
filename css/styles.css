@@ -65,7 +65,7 @@ footer {
 }
 
 .color-for-icons {
-    color: #000;
+    color: #fff;
 }
 
 .container {
@@ -1275,7 +1275,7 @@ ul.footer-nav li {
     
     /* -----------header------------ */
     .header-logo {
-        width: 25%;
+        width: 75%;
     }
 
     .header-logo img {
@@ -1283,15 +1283,20 @@ ul.footer-nav li {
     }
 
     .burger-menu-button {
-        width: 75%;
+        width: 25%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         margin-bottom: 15px;
     } 
 
+    .burger-menu {
+        background-color: #fff;
+    }
+
     .burger-button {
-        margin: 0 20px 5px 0;
+        background: transparent;
+        border: none;
     }
 
     .header-menu {
@@ -1314,8 +1319,18 @@ ul.footer-nav li {
     }
     
     .main-nav li a {
-        line-height: 1.5;
-        padding: 0 10px;
+        color: rgb(12, 181, 187);
+    }
+
+    .main-nav li {
+        border-bottom: 1px solid rgb(86, 190, 190);
+        width: 100%;
+        text-align: center;
+        padding: 3px 0;
+    }
+
+    .main-nav li:last-child {
+        border-bottom: none;
     }
     
     .header-button button {
@@ -1773,11 +1788,29 @@ ul.footer-nav li {
 
 @media screen and (max-width: 480px) {
     label {
-        font-size: 6px;
+        display: none;
+        /* font-size: 6px; */
+    }
+
+    header {
+        display: flex;
+        padding-top: 15px;
+    }
+
+    .container {
+        padding: 0 43px;
     }
     
     /* -----------header------------ */
+    .container-background {
+        padding: 0 43px;
+    }
+
     .header-logo {
+        width: 75%;
+    }
+
+    .burger-menu-button {
         width: 25%;
     }
 
@@ -1785,28 +1818,8 @@ ul.footer-nav li {
         width: 75px;
     }
 
-    .header-menu {
-        display: none;
-        width: 50%;
-    }
-
-    .heder-button {
-        width: 25%;
-    }
-
-    /* .main-nav {
-        font-size: 9px;
-    }
-    
-    .main-nav li a {
-        padding: 0 10px;
-    } */
-    
-    .header-button button {
-        border: 1px solid #fff;
-        padding: 2px 4px;
-        border-radius: 1px;
-        font-size: 7px;
+    .main-nav {
+        font-size: 6px;
     }
 
     .main-page {
@@ -1867,7 +1880,7 @@ ul.footer-nav li {
     
     /* --------easy-useful------- */
     .easy-useful-main-text {
-        width: 50%;
+        width: 100%;
     }
     
     .easy-useful-main-text-header {
@@ -1950,7 +1963,7 @@ ul.footer-nav li {
     }
 
     .services-main-text {
-        width: 50%;
+        width: 100%;
     }
     
     .services-main-text-header {
@@ -1960,7 +1973,7 @@ ul.footer-nav li {
     }
     
     .services-main-text-paragraph {
-        font-size: 9px;
+        font-size: 8px;
         line-height: 1.5;
     }
     
@@ -2018,7 +2031,7 @@ ul.footer-nav li {
     }
 
     .testimonials-main-text {
-        width: 50%;
+        width: 75%;
     }
     
     .testimonials-main-text-header {
@@ -2060,8 +2073,8 @@ ul.footer-nav li {
     }
 
     .testimonials-opinion-arrow img {
-        width: 30px;
-        height: 20px;
+        width: 15px;
+        height: 10px;
         margin-top: 50px;
         margin-left: 0;
         transform: rotate(-90deg);
@@ -2096,7 +2109,7 @@ ul.footer-nav li {
     }
 
     .our-team-main-text {
-        width: 70%;
+        width: 100%;
     } 
     
     .our-team-main-text-header {
@@ -2126,16 +2139,17 @@ ul.footer-nav li {
     }
     
     .our-team-another-text {
-        width: 70%;
+        width: 100%;
     }
     
     .our-team-ico {
-        width: 50%;
+        width: 75%;
         margin-top: 10px;
     }
     
     .our-team-ico img {
-        width: 10%;
+        height: 10px;
+        margin: 0 5px;
     }
 
     /* --------contact-us----------- */
@@ -2144,7 +2158,7 @@ ul.footer-nav li {
     }
 
     .contact-us-header-paragraph {
-        width: 70%;
+        width: 100%;
     }
     
     .contact-us-main-text-header {
@@ -2158,13 +2172,16 @@ ul.footer-nav li {
         line-height: 1.2;
     }
     
-    .contact-us-contact-form {
+    .contact-us-contacts-form {
         width: 100%;
+    }
+
+    .contact-us-contact-form {
         margin-top: 10px;
     } 
     
     .contact-us-input-field {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -2197,11 +2214,12 @@ ul.footer-nav li {
     }
     
     .contact-us-checkbox-wrapper #square {
-        width: 4px;
+        display: none;
+        /* width: 4px;
         height: 4px;
         border: 1px solid #061e37;
         border-radius: 1px;
-        font-size: 9px;
+        font-size: 9px; */
     }
     
     .contact-us-checkbox-button button {
@@ -2211,66 +2229,57 @@ ul.footer-nav li {
     }
     
     /* ---footer--- */ 
-    .container-footer-background {
-        margin-top: 0;
-    }
-
     footer {
         height: auto;
     }
 
+    .container-footer-background {
+        margin-top: 0;
+        padding: 0 43px;
+        padding-bottom: 15px;
+    }
+
     .footer-logo-menu {
-        padding-top: 25px;
-    }
-
-    .footer-logo img {
-        width: 75px;
-    }
-
-    .footer-menu {
-        display: none;
-        /* display: flex;
-        justify-content: right; */
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row;
     }
 
     .footer-logo {
-        width: 50%;
-    }
-
-    /* .footer-logo, .footer-menu {
-        width: 50%;
-    } */
-    
-    .footer-main-nav {
-        font-size: 9px;
-    }
-    
-    .footer-main-nav li a {
-        padding: 0 5px;
+        display: none;
     }
     
     .footer-other-links {
-        font-size: 9px;
-        width: 40%; 
+        margin-top: 10px;
+        font-size: 8px;
+        width: 100%; 
     }
     
     .footer-nav {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
+        list-style: none;
     }
 
     .footer-nav-privecy-policy {
-        list-style: disc;
+        list-style: none;
     }
     
     .footer-social-ico {
-        width: 40%;
+        width: 100%;
+        justify-content: space-between;
         margin-right: 10px;
     }
 
     .footer-social-ico img {
-        width: 12%;
+        width: 10px;
+    }
+
+    .footer-links-social {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
     }
 }
