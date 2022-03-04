@@ -430,6 +430,14 @@ footer {
 }
 
 /* ---------testimonials--------- */
+.container-background {
+    padding: 0 76px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .testimonials {
     height: calc(100vh - 81px);
     display: flex;
@@ -481,6 +489,11 @@ footer {
     font-weight: normal;
 }
 
+.container-customer-opinion {
+    height: 380px;
+    overflow: hidden;
+}
+
 .testimonials-opinion {
     width: 50%;
     display: flex;
@@ -489,19 +502,15 @@ footer {
     text-align: center;
 }
 
-.testimonials-opinion-arrow-720 {
-    display: none;
-}
-
 .testimonials-opinion-arrow {
-    display: block;
     display: flex;
+    z-index: 9;
     justify-content: center;
     text-align: center;
     margin: 10px 0;
 }
 
-.testimonials-opinion-arrow img {
+.testimonials-opinion-arrow i {
     margin-left: 85px;
 }
 
@@ -1106,6 +1115,11 @@ ul.footer-nav li {
         height: auto;
         border-radius: 7px;
     }
+
+    .container-customer-opinion {
+        height: 346px;
+        overflow: hidden;
+    }
     
     /* ------------our-team--------- */
     .our-team {
@@ -1527,15 +1541,21 @@ ul.footer-nav li {
 
 
     /* ---------testimonials--------- */
+    .test {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .testimonials {
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .testimonials-main-text {
-        width: 50%;
+        width: 75%;
     }
     
     .testimonials-main-text-header {
@@ -1554,6 +1574,17 @@ ul.footer-nav li {
         padding: 10px 18px;
         margin: 20px 0;
         font-size: 12px;
+    }
+
+    .container-customer-opinion {
+        height: 50%;
+        width: 290px;
+        overflow: hidden;
+    }
+
+    .warapper-arrow-text {
+        display: flex;
+        flex-direction: row;
     }
 
     .testimonials-opinion {
@@ -1576,7 +1607,7 @@ ul.footer-nav li {
         align-items: center;
     }
 
-    .testimonials-opinion-arrow img {
+    .testimonials-opinion-arrow i {
         width: 15px;
         height: 10px;
         margin-top: 50px;
@@ -1585,9 +1616,15 @@ ul.footer-nav li {
     }
 
     .testimonials-customer-opinion {
+        width: 128px;
         margin: 10px;
         display: flex;
         flex-direction: column;
+    }
+
+    .test-block {
+        display: flex;
+        flex-direction: row;
     }
     
     .testimonials-person {
@@ -2076,6 +2113,11 @@ ul.footer-nav li {
         font-size: 6px;
     }
 
+    .container-customer-opinion {
+        height: 130px;
+        overflow: hidden;
+    }
+
     .testimonials-opinion {
         width: 100%;
         display: flex;
@@ -2096,18 +2138,12 @@ ul.footer-nav li {
         align-items: center;
     }
 
-    .testimonials-opinion-arrow img {
+    .testimonials-opinion-arrow i {
         width: 15px;
         height: 10px;
         margin-top: 50px;
         margin-left: 0;
         transform: rotate(-90deg);
-    }
-
-    .testimonials-customer-opinion {
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
     }
     
     .testimonials-customer-opinion-header {
@@ -2125,6 +2161,19 @@ ul.footer-nav li {
         width: 100%;
         height: auto;
         border-radius: 5px;
+    } 
+
+    .warapper-arrow-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testimonials-customer-opinion {
+        height: 100px;
+        width: 128px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
     }
     
     /* ------------our-team--------- */
