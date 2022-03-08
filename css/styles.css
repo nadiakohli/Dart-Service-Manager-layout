@@ -380,7 +380,7 @@ footer {
 }
 
 .services-accordion-list {
-    width: 50%;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -394,10 +394,23 @@ footer {
 }
 
 .services-list {
+    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    position: relative;
+}
+
+.services-list-img-paragraph {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.wrapper-accordion-list-paragraph.active .services-list-img-paragraph {
+    height: 300px;
 }
 
 .services-item-list {
@@ -419,9 +432,27 @@ footer {
 }
 
 .accordion-header {
+    position: relative;
+    padding: 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
+.accordion-button::before {
+    content: '>';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.wrapper-accordion-list-paragraph.active .accordion-button::before {
+    content: '>';
+    transform: rotate(90deg);
+  }
 
 .accordion-button {
     background: transparent;
@@ -1012,10 +1043,6 @@ ul.footer-nav li {
         margin-top: 10px;
         margin-bottom: 45px;
     }
-
-    .services-main-text {
-        width: 50%;
-    }
     
     .services-main-text-header {
         margin-top: 30px;
@@ -1027,12 +1054,7 @@ ul.footer-nav li {
         font-size: 14px;
         line-height: 1.5;
     }
-    
-    .services-accordion-list {
-        margin-top: 30px;
-        width: 70%;
-    }
-    
+     
     .services-item-list {
         font-size: 14px;
         margin-left: 10px;
@@ -1048,14 +1070,51 @@ ul.footer-nav li {
         width: 150px;
     }
 
-    .services-list {
-        width: 100%;
-    }
-
     .line {
         padding: 15px 0;
     }
 
+    .services-accordion-list {
+        max-width: 650px;
+        margin-top: 30px;
+    }
+    
+    .services-list {
+        width: 650px;
+    }
+    
+    .services-list-img-paragraph {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        overflow-y: auto;
+    }
+    
+    .services-accordion-list.active .services-list-img-paragraph {
+        height: 210px;
+    }
+    
+    .accordion-header {
+        position: relative;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .accordion-button::before {
+        content: '>';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .services-accordion-list.active .accordion-button::before {
+        content: '>';
+        transform: rotate(90deg);
+    }
 
     /* ---------testimonials--------- */
     .testimonials {
@@ -1491,10 +1550,6 @@ ul.footer-nav li {
         margin-top: 5px;
         margin-bottom: 25px;
     }
-
-    .services-main-text {
-        width: 50%;
-    }
     
     .services-main-text-header {
         margin-top: 10px;
@@ -1507,17 +1562,12 @@ ul.footer-nav li {
         line-height: 1.5;
     }
     
-    .services-accordion-list {
-        margin-top: 15px;
-        width: 70%;
-    }
-    
     .services-item-list {
         font-size: 9px;
         margin-left: 5px;
     }
 
-    .accordion-header img{
+    .accordion-header img {
         width: 12%;
     }
     
@@ -1531,14 +1581,26 @@ ul.footer-nav li {
         width: 100px;
     }
 
-    .services-list {
-        width: 100%;
-    }
-
     .line {
         padding: 10px 0;
     }
 
+    .services-accordion-list {
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    
+    .services-list {
+        width: 400px;
+    }
+    
+    .services-accordion-list.active .services-list-img-paragraph {
+        height: 135px;
+    }
+
+    .accordion-button::before {
+        font-size: 1em;
+    }
 
     /* ---------testimonials--------- */
     .test {
@@ -2038,11 +2100,6 @@ ul.footer-nav li {
         line-height: 1.5;
     }
     
-    .services-accordion-list {
-        margin-top: 10px;
-        width: 70%;
-    }
-    
     .services-item-list {
         font-size: 6px;
         margin-left: 5px;
@@ -2068,10 +2125,6 @@ ul.footer-nav li {
         margin-top: 5px;
     }
 
-    .services-list, .services-list-img-paragraph {
-        width: 100%;
-    }
-
     .services-list-img-paragraph {
         display: flex;
         flex-direction: column;
@@ -2081,7 +2134,23 @@ ul.footer-nav li {
     .line {
         padding: 5px 0;
     }
+    
+    .services-accordion-list {
+        max-width: 250px;
+        margin-top: 10px;
+    }
+    
+    .services-list {
+        width: 250px;
+    }
+    
+    .services-accordion-list.active .services-list-img-paragraph {
+        height: 90px;
+    }
 
+    .accordion-button::before {
+        font-size: 0.5em;
+    }
 
     /* ---------testimonials--------- */
     .testimonials {
