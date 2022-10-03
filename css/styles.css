@@ -3,12 +3,16 @@
     src: url("../fonts/Raleway-SemiBold.woff") format(".woff")
     url("../fonts/Raleway-Regular.woff") format(".woff")
     url("../fonts/Raleway-Bold.woff") format(".woff")
-    url("../fonts/Roboto-Regular.woff") format(".woff")
     url("../fonts/Raleway-ExtraBold.woff") format(".woff")
     url("../fonts/Raleway-Thin.woff") format(".woff")
     url("../fonts/Raleway-Light.woff") format(".woff")
     url("../fonts/Raleway-ExtraLight.woff") format(".woff")
     url("../fonts/Raleway-Medium.woff") format(".woff"); 
+}
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("../fonts/Roboto-Regular.woff") format(".woff");
 }
 
 * {
@@ -778,7 +782,7 @@ footer {
 .container-footer-background {
     margin-top: 100px;
     padding: 0 76px;
-    background-image: url("../images/bg_footer.png");
+    background-image: url("../images/bgFooter.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
